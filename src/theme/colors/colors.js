@@ -1,0 +1,28 @@
+const colors = {
+  primary: "#0071DB",
+  secondary: "#71A8BE",
+  darkSecondary: "#4A7080",
+  tertiary: "#76C9F2",
+  accent: "#CBECF1",
+  white: "#FFF",
+  toupe: "#FBFBFB",
+  description: "#707070",
+  black: "#000000",
+  nero: "#202020",
+  reallyDarkGrey: "#9B9B9B",
+  darkerGrey: "#646363",
+  darkGrey: "#929292",
+  duskyGrey: "#6E6E6E",
+  standardGrey: "#EFEFF4",
+  lightGrey: "#F4F4F4",
+  lighterGrey: "#FAFAFA",
+  veryLightGrey: "#00000033",
+  red: "#BE3B2E",
+  inactive: "#9e9e9e",
+  dividerGrey: "#E1DFDD",
+  warning: "#FF0000",
+  success: "#79DCB6",
+  background: "#F9F9F9",
+};
+
+export default colors;
