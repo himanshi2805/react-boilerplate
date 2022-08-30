@@ -6,6 +6,7 @@ const styles = {
     minHeight: "100vh",
     width: "100vw",
     background: stylesConfig.colors.standardGrey,
+    justifyContent: "center"
   },
   card: {
     maxWidth: "1002px",
@@ -13,6 +14,10 @@ const styles = {
     display: "flex",
   },
   content: {
+    width: "500px",
+    height: "500px",
+    display: "flex",
+    alignItems: "center",
     paddingLeft: {
       xs: "16px",
       sm: stylesConfig.spacing.veryVeryLarge,
@@ -34,6 +39,10 @@ const styles = {
     color: stylesConfig.colors.darkGrey,
     font: "normal normal normal 12px/45px Poppins",
   },
+  button: {
+    marginTop: "15px",
+    height: "50px",
+  }
 };
 
 export default styles;
